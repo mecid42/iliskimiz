@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veda Mektubum</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <!-- Ana Fotoğraf -->
+        <img src="img/1.JPG" alt="Biz" class="header-image">
+        
+        <!-- Başlık -->
+        <h1>En güzellerin ilişikisin</h1>
+        
+        <!-- Hikaye Bölümü -->
+        <div class="story-section">
+            <h2>Başlangıç</h2>
+            <p class="main-text">
+                Şu fotoğrafta gördüğün iki insan, bir zamanlar birbirini çok seven iki candı. 
+                Belkide çok hatalar oldu belki çok bağrdık kızdık küfür ettik hakaret ettik ama biz toksit değildik
+                O gülüşlerimiz gerçekti, o sarılışlarımızda samimiyet vardı. 
+                Mutlu anlarımız, güzel hatıralarımız oldu. Ama bazen sevgi yetmiyor...
+            </p>
+        </div>
+        
+        <!-- Albüm Bölümü -->
+        <div class="story-section">
+            <h2>Hatıralar Albümü</h2>
+            <p>Birlikte yaşadığımız en güzel anlardan bazıları...</p>
+            
+            <div class="album" id="memory-album">
+                <!-- Albüm resimleri JavaScript ile eklenecek -->
+            </div>
+        </div>
+        
+        <!-- Acı Bölümü -->
+        <div class="pain-section">
+            <h2>Anlatamadıklarım</h2>
+            <p class="main-text">
+              Belki beni tam anlayamadın. Belki sadece kendi duygularına odaklandın.
+Çok dinlemeye çalıştım, hissetmeye çalıştım... Ama uzun zamandır beni gerçekten dinlemedin.
+Ne hissettiğimi, neyden kırıldığımı sormadın.
+Bu bir suçlama değil. Senin kafandaki gibi bir hesaplaşma da değil.
+Ama gerçekten son 3 aydır hislerimi duymadın.
+
+Her tartışmada kendini haklı çıkarmaya çalıştın, ben hep bir adım geri attım.
+Ve sonunda anladım ki, sadece sevmek yetmiyor.
+Bazen iki taraf da aynı şekilde hissetmiyor.
+Bazen de bitmesi gerekiyor...
+            </p>
+            <p>
+               
+            Barışmak için ısrar ettim, çabaladım.
+Ama her seferinde kırıldım.
+Söylediklerinin beni nasıl etkilediğini belki fark etmedin,
+ya da düşünmedin nasıl geleceğini bana duygusal olarak.
+Ama olsun…
+İyi ki dinlemişim seni,
+iyi ki de ısrarla geldim — kovmana rağmen.
+
+Barışmak istemem bir zayıflık değildi.
+Sensiz yapamamak da değildi.
+Ben gerçekten huzur istedim.
+ben en büyük ve en ağır hatalarında senin yanına durdum destekledim bunları hepsini unutarak evlilik teklif ettim yüzük ne kadar küçük görsen bu benim hayatımda en büyük ve en değerli şeydi iyikide teklif etmişim .
+
+
+Ama artık yoruldum.
+Hep ikinci planda hissettim kendimi.
+Son zamanlarda kendini kontrol edemedin.
+Bana karşı her şeyi söyledin.
+Her yerden kırmaya çalıştın beni.
+Aynı gün içinde değişmemi bekledin.
+Sadece benim değişmemi istedin.
+Sırf geri geldim diye üstünlük kurdun.
+Ve sevgimi, duygumu görmezden geldin.
+
+Bu bir suçlama değil.
+Yaşadıklarımızı belki sen farklı gördün,
+belki şimdi anlarsın neden vazgeçtiğimi.
+
+Bu yazdıklarımda haklı çıkmaya çalışmıyorum.
+Manipüle etmiyorum.
+Sadece anlatamadıklarımı yazıyorum.
+Çünkü karşı taraf hep haklı çıkmak için yazdığımı düşündü.
+toksit olsaydım biz bu kadar gülmezdik bu kadar güzel mektupların gelmezdi.
+Bu kez öyle değil.
+            </p>
+        </div>
+        
+        <!-- Veda Bölümü -->
+        <div class="goodbye-section">
+            <div class="goodbye-text">Hoşçakal...</div>
+            <p>Dört yıllık yolculuğumuzun sonuna geldik.</p>
+            <p>Belki hatalar yaptık, belki doğrular Ama iyiki çıkmışız...</p>
+            <p>benden nefret etme ne zaman istersen sürekli seni dinlerim başın sıkışırsa bile abin,yakın arkdaşın,gizli dostun , istedin sayı ve gel sürekli dinlerim rahat ol bundan sonra hayatımda yapacaklarım seni kışıkrtma için değil rahat ol hayatında .</p>
+           <p>yanlış anlamam yada bu ilişki geri bağlıyacan düşüncesine girmem </p>
+            <p>Bu sayfa, birlikte yaşadığımız güzel anıların bir hatırası olarak kalsın.
+            </p>
+            <div class="signature">çok seven</div>
+        </div>
+    </div>
+    
+    <!-- Resim Büyütme Modalı -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="zoomedImage">
+    </div>
+    <div class="scroll-heart-container" id="scrollHeart">
+    <svg viewBox="0 0 512 512" class="svg-heart" xmlns="http://www.w3.org/2000/svg">
+        <path d="M471.7 73.2c-54.5-46.4-136-38.6-186.4 13.5L256 116.6l-29.3-29.9c-50.4-52.1-131.9-59.9-186.4-13.5C-15.3 128.4-10.6 230.8 43 284.5l193 198.4c12 12.3 31.5 12.3 43.5 0l193-198.4c53.6-53.7 58.3-156.1-1.8-211.3z" fill="#e63946"/>
+    </svg>
+</div>
+
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <script src="js/script.js"></script>
+</body>
+</html>
